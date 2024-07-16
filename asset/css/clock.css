@@ -1,8 +1,32 @@
+
+
 body {
 	background-color: #000;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
 }
 
-#canvas{
-	margin-left:300px;
-	margin-top:50px;
+.star {
+	position: absolute;
+	background-color: white;
+	border-radius: 80%;
+	box-shadow: 0 0 0.8px 0.8px white;
+}
+
+@keyframes twinkle {
+
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+}
+
+#canvas {
+	margin-left: 300px;
+	margin-top: 50px;
 }
